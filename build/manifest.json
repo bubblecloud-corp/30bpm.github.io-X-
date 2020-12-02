@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "homepage": "30bpm.github.io",
+  "short_name": "30bpm app",
+  "name": "30bpm app",
   "icons": [
     {
       "src": "favicon.ico",
