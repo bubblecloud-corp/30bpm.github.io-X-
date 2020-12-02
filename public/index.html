@@ -34,15 +34,6 @@
       href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css"
     />
 
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <title>30BPM corporation</title>
     <style>
       .makeStyles-title-2 { font-family: 'Roboto' !important; color: black !important; } 
@@ -50,37 +41,19 @@
       .makeStyles-filter-93:after, .makeStyles-filter-93:before {
         display: none !important;
       }
-      .our-dog-img {
-        position: absolute;
-        bottom: -350px;
-        z-index: -1;
-      }
-      @media(max-width: 1000px){
-        .our-dog-img{
-          left: -400px;
-        }
+      .our-dog-img { position: absolute; bottom: -350px; z-index: -1; }
+      @media(max-width: 1000px) { 
+        .our-dog-img{ left: -400px; }
       }  
-      @media(max-width: 540px){
-        .our-dog-img{
-          width: 1000px;
-          left: -230px;
-          bottom: -217px;
-        }
+      @media(max-width: 540px) {
+        .our-dog-img{ width: 1000px; left: -230px; bottom: -217px; }
       }
-      
+      #our-nest { width: 100%; padding: 15px; }
+      .info-title { display: flex; color: #9c27b0; font-family: 'NanumSquare'; font-weight: bold; margin: 60px 0 5px; }
+      .info-content { color: black; font-family: 'NanumSquare'; font-weight: normal; margin-bottom: 20px; }
     </style>
   </head>
   <body>
      <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

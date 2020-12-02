@@ -28,7 +28,7 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          onClick={() => alert("groomer는 아직 준비중입니다. 커밍쑨")}
+          onClick={() => alert("groomer는 아직 준비중입니다.")}
           color="transparent"
           target="_blank"
           className={classes.navLink}
@@ -39,7 +39,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id="github"
-          title="우리는 IT 스타트업입니다."
+          title="use python js ML"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >

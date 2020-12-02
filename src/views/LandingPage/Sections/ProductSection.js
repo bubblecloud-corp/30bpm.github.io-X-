@@ -3,9 +3,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+import Link from "@material-ui/icons/Link";
+import PermPhoneMsgIcon from '@material-ui/icons/PermPhoneMsg';
+import AccessibilityNewIcon from '@material-ui/icons/AccessibilityNew';
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -21,10 +21,11 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>우리는 groomer를 만들어요</h2>
+          <h2 className={classes.title}>반려동물 미용사들을 위한<br /> IT STARTUP</h2>
           <h5 className={classes.description}>
             groomer는 반려동물 미용사들을 위한 간편 예약 관리 시스템입니다.<br />
-            물론 사용자들도 간편하게 예약할 수 있어요.<br />
+            전화로 예약을 받던 기존의 방식을 줄여나가고, <br />
+            미용사와 반려동물 보호자의 소통을 돕습니다 <br />
           </h5>
         </GridItem>
       </GridContainer>
@@ -32,27 +33,27 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Chat}
+              title="groomer Link"
+              description="미용사와 샵들을 소개하고, 샵의 일정을 공유하고, 예약 전 주의사항을 인지시킬 수 있는 개인 페이지를 링크형태로 제공합니다."
+              icon={Link}
               iconColor="info"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={VerifiedUser}
+              title="groomer Reservation"
+              description="반려동물 미용사를 위한 간편 예약관리 시스템"
+              icon={PermPhoneMsgIcon}
               iconColor="success"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Fingerprint}
+              title="groomer Flatform"
+              description="파편화된 반려동물 미용사와 샵들의 정보를 모아주는 공간"
+              icon={AccessibilityNewIcon}
               iconColor="danger"
               vertical
             />

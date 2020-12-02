@@ -10,7 +10,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
+// import GridItem from "components/Grid/GridItem.js";
 import GridItemTed from "components/Grid/GridItemTed.js";
 import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
@@ -62,8 +62,8 @@ export default function LandingPage(props) {
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.instagram.com/zzoori_salon/"
-                target="_blank"
+                href="#contact-us"
+                // target="_blank"
                 rel="noopener noreferrer"
               >
                 {/* <i className="fas fa-play" /> */}
