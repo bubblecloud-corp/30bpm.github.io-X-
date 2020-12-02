@@ -21,7 +21,7 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>반려동물 미용사들을 위한<br /> IT STARTUP</h2>
+          <h2 className={classes.title}>애견미용사들을 위한<br /> IT solution</h2>
           <h5 className={classes.description}>
             groomer는 반려동물 미용사들의 불편함을 해소하는 종합 솔루션입니다.<br />
             전화로 예약을 받던 기존의 방식을 줄여나가고, <br />

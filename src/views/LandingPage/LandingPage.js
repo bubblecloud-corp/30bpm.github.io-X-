@@ -23,7 +23,8 @@ import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 
-import OURDOG from "../../assets/img/30bpm/bs-dog-single.png";
+// import OURDOG from "../../assets/img/30bpm/bs-dog-single.png";
+import OURDOG from "../../assets/img/30bpm/petstylist-dog.png";
 
 const dashboardRoutes = [];
 
