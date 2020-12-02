@@ -10,9 +10,9 @@ import GridItem from "components/Grid/GridItem.js";
 // import CustomInput from "components/CustomInput/CustomInput.js";
 
 import Button from "components/CustomButtons/Button.js";
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import EmailIcon from '@material-ui/icons/Email';
 import CallIcon from '@material-ui/icons/Call';
-import HomeIcon from '@material-ui/icons/Home';
+import PetsIcon from '@material-ui/icons/Pets';
 import styles from "assets/jss/material-kit-react/views/landingPageSections/workStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -35,15 +35,14 @@ export default function WorkSection() {
                 <div className="info-content">010-6684-0078</div>
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
-                <div className="info-title"><MailOutlineIcon className="info-icon" />이메일</div>
-                <div className="info-content">gt03051@gmail.com</div>
+                <div className="info-title"><EmailIcon className="info-icon" />이메일</div>
+                <div className="info-content">30bpm.official@gmail.com</div>
                 <Button 
                   color="primary"
-                  href="mailto:gt03051@gmail.com">이메일 전송</Button>
-                
+                  href="mailto:30bpm.official@gmail.com">이메일 전송</Button>
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
-                <div className="info-title"><HomeIcon />우리집</div>
+                <div className="info-title"><PetsIcon />우리집</div>
               </GridItem>
               <iframe id="our-nest" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.334756489299!2d129.12824275141008!3d35.173208180219255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356892c1b7cef823%3A0x353323e15563c37d!2z7IS87YWA6riw7Iig7LC97JeF7YOA7Jq0KENFTlRBUCk!5e0!3m2!1sko!2skr!4v1606872381208!5m2!1sko!2skr" width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </GridContainer>

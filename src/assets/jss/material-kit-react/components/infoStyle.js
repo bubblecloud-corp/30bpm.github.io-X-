@@ -41,6 +41,9 @@ const infoStyle = {
   gray: {
     color: grayColor
   },
+  custom: {
+    color: "#9c27b0"
+  },
   icon: {
     width: "36px",
     height: "36px"

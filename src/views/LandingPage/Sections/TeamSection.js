@@ -49,12 +49,12 @@ export default function TeamSection() {
                 <br />
                 <small className={classes.smallTitle}>CEO, fullstack developer</small>
               </h4>
-              <CardBody>
+              {/* <CardBody>
                 <p className={classes.description}>
                   영어로 쏼라쏼라해야 멋있지만<br />
                   일단 한국어
                 </p>
-              </CardBody>
+              </CardBody> */}
               <CardFooter className={classes.justifyCenter}>
                 <Button
                   justIcon
@@ -87,12 +87,12 @@ export default function TeamSection() {
                 <br />
                 <small className={classes.smallTitle}>CTO, frontend developer</small>
               </h4>
-              <CardBody>
+              {/* <CardBody>
                 <p className={classes.description}>
                   쏼라쏼라<br />
                   쏼라
                 </p>
-              </CardBody>
+              </CardBody> */}
               <CardFooter className={classes.justifyCenter}>
               <Button
                   justIcon
@@ -136,22 +136,13 @@ export default function TeamSection() {
                 <br />
                 <small className={classes.smallTitle}>COO, project mananger</small>
               </h4>
-              <CardBody>
+              {/* <CardBody>
                 <p className={classes.description}>
                   종명쿤<br />
                   쏼라쏼라
                 </p>
-              </CardBody>
+              </CardBody> */}
               <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                  href="https://instagram/jm_benjamin"
-                  target="_blank"
-                >
-                  <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
                 <Button
                   justIcon
                   color="transparent"
@@ -160,6 +151,15 @@ export default function TeamSection() {
                   target="_blank"
                 >
                   <i className={classes.socials + " fab fa-github"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                  href="https://instagram/jm_benjamin"
+                  target="_blank"
+                >
+                  <i className={classes.socials + " fab fa-instagram"} />
                 </Button>
               </CardFooter>
             </Card>
@@ -174,12 +174,12 @@ export default function TeamSection() {
                 <br />
                 <small className={classes.smallTitle}>CMO, performance marketer</small>
               </h4>
-              <CardBody>
+              {/* <CardBody>
                 <p className={classes.description}>
                   민정<br />
                   쏼라쏼라
                 </p>
-              </CardBody>
+              </CardBody> */}
               <CardFooter className={classes.justifyCenter}>
                 <Button
                   justIcon
@@ -203,12 +203,12 @@ export default function TeamSection() {
                 <br />
                 <small className={classes.smallTitle}>CIO, backend developer</small>
               </h4>
-              <CardBody>
+              {/* <CardBody>
                 <p className={classes.description}>
                   정진호<br />
                   쏼라쏼라
                 </p>
-              </CardBody>
+              </CardBody> */}
               <CardFooter className={classes.justifyCenter}>
                 <Button
                   justIcon
@@ -250,12 +250,12 @@ export default function TeamSection() {
                 <br />
                 <small className={classes.smallTitle}>UI/UX designer</small>
               </h4>
-              <CardBody>
+              {/* <CardBody>
                 <p className={classes.description}>
                   나은<br />
                   쏼라쏼라
                 </p>
-              </CardBody>
+              </CardBody> */}
               <CardFooter className={classes.justifyCenter}>
                 <Button
                   justIcon

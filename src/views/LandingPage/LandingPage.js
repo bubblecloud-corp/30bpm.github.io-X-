@@ -30,14 +30,18 @@ const dashboardRoutes = [];
 const useStyles = makeStyles(styles);
 
 export default function LandingPage(props) {
+  const scrollRef = React.useRef();
   const classes = useStyles();
   const { ...rest } = props;
+  const downScroll = () => {
+    scrollRef.current.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
+  }
   return (
     <div>
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="30 beats per minute"
+        brand="30 breaths per minute"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -60,11 +64,11 @@ export default function LandingPage(props) {
               </h4>
               <br />
               <Button
-                color="danger"
+                color="custom"
                 size="lg"
-                href="#contact-us"
                 // target="_blank"
                 rel="noopener noreferrer"
+                onClick={downScroll}
               >
                 {/* <i className="fas fa-play" /> */}
                 CONTACT US  ← 
@@ -80,6 +84,7 @@ export default function LandingPage(props) {
           <ProductSection />
           <TeamSection />
           <WorkSection />
+          <div ref={scrollRef}></div>
         </div>
       </div>
       <Footer />
