@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2ccae519b20afe8f8413c12643e6deb",
+    "revision": "7330511479c697d937e6df4af7d05870",
     "url": "/index.html"
   },
   {
-    "revision": "340e66b9a96b5b948d74",
+    "revision": "5b714f867a1c6737dbd6",
     "url": "/static/css/main.c5a3ee5c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.21d141d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "340e66b9a96b5b948d74",
-    "url": "/static/js/main.a08e4281.chunk.js"
+    "revision": "5b714f867a1c6737dbd6",
+    "url": "/static/js/main.4e944760.chunk.js"
   },
   {
     "revision": "deaf17d855cbdaf7344d",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b08234a2b7e8e4fb2e3c4e713252021c",
     "url": "/static/media/bg7.b08234a2.jpg"
-  },
-  {
-    "revision": "243f97a417e685557ee42e6f4144145c",
-    "url": "/static/media/bs-dog-single.243f97a4.png"
   },
   {
     "revision": "497ee8d81f2ba6a832ef67f83826400f",
@@ -94,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4112cbc1477d9e149033c5df66087e16",
     "url": "/static/media/olu-eletu.4112cbc1.jpg"
+  },
+  {
+    "revision": "bee7d21b185cbb02c1cc0e8c1ac90b58",
+    "url": "/static/media/petstylist-dog.bee7d21b.png"
   },
   {
     "revision": "baf6b40a654b078399e93e3d9cb6d455",
