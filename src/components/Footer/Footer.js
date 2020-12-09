@@ -20,7 +20,7 @@ export default function Footer(props) {
   const { whiteFont } = props;
   const footerClasses = classNames({
     [classes.footer]: true,
-    [classes.footerWhiteFont]: whiteFont
+    [classes.footerWhiteFont]: whiteFont,
   });
   // const aClasses = classNames({
   //   [classes.a]: true,
@@ -29,10 +29,13 @@ export default function Footer(props) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
-        
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by 30BPM
+          <div claaName={classes.tmp}>
+            30bpm 대표 : 정종명 | 주소 : 부산광역시 해운대구 우동 센텀동로 45 |
+            사업자 등록번호 : 245-14-01481
+          </div>
         </div>
       </div>
     </footer>
@@ -40,5 +43,5 @@ export default function Footer(props) {
 }
 
 Footer.propTypes = {
-  whiteFont: PropTypes.bool
+  whiteFont: PropTypes.bool,
 };
