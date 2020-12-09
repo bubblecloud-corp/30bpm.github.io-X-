@@ -33,8 +33,8 @@ export default function Footer(props) {
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by 30BPM
           <div claaName={classes.tmp}>
-            30bpm 대표 : 정종명 | 주소 : 부산광역시 해운대구 우동 센텀동로 45 |
-            사업자 등록번호 : 245-14-01481
+            30bpm 대표 : 정종명 | 주소 : 부산광역시 금정구 장전3동 온천장로 139
+            A401호 | 사업자 등록번호 : 245-14-01481
           </div>
         </div>
       </div>
