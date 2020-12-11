@@ -10,8 +10,6 @@ object-assign
   http://jedwatson.github.io/classnames
 */
 
-/*! nouislider - 14.5.0 - 5/11/2020 */
-
 /**
  * A better abstraction over CSS.
  *

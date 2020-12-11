@@ -2,6 +2,7 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
+import Button from "components/CustomButtons/Button.js";
 // @material-ui/icons
 import Link from "@material-ui/icons/Link";
 import PermPhoneMsgIcon from '@material-ui/icons/PermPhoneMsg';
@@ -39,6 +40,12 @@ export default function ProductSection() {
               iconColor="custom"
               vertical
             />
+              <Button 
+                color="primary"
+                href="/use-terms">서비스 이용약관</Button>
+              <Button 
+                color="primary"
+                href="/privacy-policy">개인정보 처리방침</Button>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
