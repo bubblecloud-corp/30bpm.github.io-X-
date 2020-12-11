@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1a60d6749b5bdf47b9db580d4bc948e",
+    "revision": "0d514814eac781f87ed95aff5abc3d79",
     "url": "/index.html"
   },
   {
-    "revision": "25dc9bd6d4394bfef6db",
+    "revision": "f0aafd2404a51bfce334",
     "url": "/static/css/main.c5a3ee5c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.7cfc7bde.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "25dc9bd6d4394bfef6db",
-    "url": "/static/js/main.0fd2626b.chunk.js"
+    "revision": "f0aafd2404a51bfce334",
+    "url": "/static/js/main.c9e09efc.chunk.js"
   },
   {
     "revision": "deaf17d855cbdaf7344d",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nauen.713c965c.png"
   },
   {
-    "revision": "bee7d21b185cbb02c1cc0e8c1ac90b58",
-    "url": "/static/media/petstylist-dog.bee7d21b.png"
+    "revision": "d18513d25a6edfdb3b1883a9c6fb89c1",
+    "url": "/static/media/petstylist-dog-thin.d18513d2.png"
   },
   {
     "revision": "7bf498ba42a6eeb615a97867873802ad",
