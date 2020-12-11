@@ -24,7 +24,7 @@ import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 
 // import OURDOG from "../../assets/img/30bpm/bs-dog-single.png";
-import OURDOG from "../../assets/img/30bpm/petstylist-dog.png";
+import OURDOG from "../../assets/img/30bpm/petstylist-dog-thin.png";
 
 const dashboardRoutes = [];
 
@@ -35,33 +35,34 @@ export default function LandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   const downScroll = () => {
-    scrollRef.current.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
-  }
+    scrollRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "end",
+      inline: "nearest",
+    });
+  };
   return (
     <div>
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="30 breaths per minute"
+        brand="groomer"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
       <Parallax filter>
         <div className={classes.container}>
           <GridContainer>
-            
             <GridItemTed xs={12} sm={12} md={6}>
-              
-              <h1 className={classes.title}>30BPM corporation</h1>
+              <h1 className={classes.title}>groomer</h1>
               <h4>
-                반려동물이 행복하려면,
+                반려동물과 함께하는 세상,
                 <br />
-                그루머들의 행복이 필요하더라
               </h4>
               <br />
               <Button
@@ -72,10 +73,10 @@ export default function LandingPage(props) {
                 onClick={downScroll}
               >
                 {/* <i className="fas fa-play" /> */}
-                CONTACT US  ← 
+                CONTACT US ←
               </Button>
             </GridItemTed>
-            
+
             <img className="our-dog-img" src={OURDOG} />
           </GridContainer>
         </div>
