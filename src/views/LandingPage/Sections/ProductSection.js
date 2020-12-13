@@ -13,6 +13,7 @@ import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
+import { Link as RouterLink } from "react-router-dom";
 
 const useStyles = makeStyles(styles);
 
@@ -45,12 +46,15 @@ export default function ProductSection() {
               iconColor="custom"
               vertical
             />
-              <Button 
+              <RouterLink to="/use-terms">
+                <Button 
+                  color="primary">서비스 이용약관</Button>
+              </RouterLink>
+              <RouterLink to="/privacy-policy">
+                <Button 
                 color="primary"
-                href="/use-terms">서비스 이용약관</Button>
-              <Button 
-                color="primary"
-                href="/privacy-policy">개인정보 처리방침</Button>
+                >개인정보 처리방침</Button>
+              </RouterLink>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea

@@ -14,15 +14,15 @@ import UseTerm from "views/30BPM/UseTerm.js";
 import PrivacyPolicy from "views/30BPM/PrivacyPolicy.js";
 
 
-var hist = createBrowserHistory();
+// var hist = createBrowserHistory();
 
 ReactDOM.render(
-  <BrowserRouter history={hist} basename={process.env.PUBLIC_URL}>
-    <Switch>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    {/* <Switch> */}
       <Route exact path="/" component={LandingPage} />
       <Route path="/use-terms" component={UseTerm} />
       <Route path="/privacy-policy" component={PrivacyPolicy} />
-    </Switch>
+    {/* </Switch> */}
   </BrowserRouter>,
   document.getElementById("root")
 );
