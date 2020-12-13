@@ -6,7 +6,8 @@ import styled from "styled-components";
 const UseTerm = () => {
     return (
         <StyledBaseContainer>
-        <h1>서비스 이용 약관</h1>
+            
+        <h1>서비스 이용 약관</h1><a href="/">← 뒤로가기</a>
 
         <b> 제 1 조 (목적)</b>
 
@@ -223,6 +224,12 @@ const StyledBaseContainer = styled.div`
     width: 100%;
     padding: 5%;
     font-size: 15px;
+    a {
+        font-weight: bold;
+        background: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
     h1 {
         color: black !important;
         text-align: center;

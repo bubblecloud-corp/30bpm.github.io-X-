@@ -4,7 +4,7 @@ import styled from "styled-components";
 const PrivacyPolicy = () => {
     return (
         <StyledBaseContainer>
-        <h1>개인정보 처리 방침</h1>
+        <h1>개인정보 처리 방침</h1><a href="/">← 뒤로가기</a>
         
         <h3>30bpm은 개인정보보호법에 따라 이용자의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 이용자의 고충을 원활하게 처리할 수 있도록 다음과 같은 처리방침을 두고 있습니다.</h3>
 
@@ -201,6 +201,12 @@ const StyledBaseContainer = styled.div`
     width: 100%;
     padding: 5%;
     font-size: 15px;
+    a {
+        font-weight: bold;
+        background: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
     h1 {
         color: black !important;
         text-align: center;
