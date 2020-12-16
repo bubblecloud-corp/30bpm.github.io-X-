@@ -46,15 +46,12 @@ export default function ProductSection() {
               iconColor="custom"
               vertical
             />
-              <RouterLink to="/use-terms">
-                <Button 
-                  color="primary">서비스 이용약관</Button>
-              </RouterLink>
-              <RouterLink to="/privacy-policy">
-                <Button 
-                color="primary"
-                >개인정보 처리방침</Button>
-              </RouterLink>
+            <RouterLink to="/use-terms">
+              <Button color="primary">groomer link 서비스 이용약관</Button>
+            </RouterLink>
+            <RouterLink to="/privacy-policy">
+              <Button color="primary">groomer link 개인정보 처리방침</Button>
+            </RouterLink>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
