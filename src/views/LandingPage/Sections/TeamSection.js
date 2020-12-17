@@ -16,7 +16,6 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-
 // members
 import TAEHOON from "assets/img/30bpm/member/taehoon.jpg";
 import CHIHUN from "assets/img/30bpm/member/chihunjang.png";
@@ -47,7 +46,9 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 김태훈
                 <br />
-                <small className={classes.smallTitle}>CEO, fullstack developer</small>
+                <small className={classes.smallTitle}>
+                  CEO, fullstack developer
+                </small>
               </h4>
               {/* <CardBody>
                 <p className={classes.description}>
@@ -85,7 +86,9 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 장치훈
                 <br />
-                <small className={classes.smallTitle}>CTO, frontend developer</small>
+                <small className={classes.smallTitle}>
+                  CTO, frontend developer
+                </small>
               </h4>
               {/* <CardBody>
                 <p className={classes.description}>
@@ -94,7 +97,7 @@ export default function TeamSection() {
                 </p>
               </CardBody> */}
               <CardFooter className={classes.justifyCenter}>
-              <Button
+                <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
@@ -103,7 +106,6 @@ export default function TeamSection() {
                 >
                   <i className={classes.socials + " fab fa-blogger"} />
                   {/* <i className="fas fa-blog" /> */}
-                
                 </Button>
                 <Button
                   justIcon
@@ -113,7 +115,7 @@ export default function TeamSection() {
                   target="_blank"
                 >
                   <i className={classes.socials + " fab fa-github"} />
-                  </Button>
+                </Button>
                 <Button
                   justIcon
                   color="transparent"
@@ -134,7 +136,9 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 정종명
                 <br />
-                <small className={classes.smallTitle}>COO, project mananger</small>
+                <small className={classes.smallTitle}>
+                  COO, project mananger
+                </small>
               </h4>
               {/* <CardBody>
                 <p className={classes.description}>
@@ -172,7 +176,9 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 강민정
                 <br />
-                <small className={classes.smallTitle}>CMO, performance marketer</small>
+                <small className={classes.smallTitle}>
+                  CMO, performance marketer
+                </small>
               </h4>
               {/* <CardBody>
                 <p className={classes.description}>
@@ -201,7 +207,9 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 정진호
                 <br />
-                <small className={classes.smallTitle}>CIO, backend developer</small>
+                <small className={classes.smallTitle}>
+                  CIO, backend developer
+                </small>
               </h4>
               {/* <CardBody>
                 <p className={classes.description}>
@@ -248,7 +256,9 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 이나은
                 <br />
-                <small className={classes.smallTitle}>UI/UX designer</small>
+                <small className={classes.smallTitle}>
+                  CDO product designer
+                </small>
               </h4>
               {/* <CardBody>
                 <p className={classes.description}>
